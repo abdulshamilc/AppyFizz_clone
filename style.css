@@ -1,0 +1,210 @@
+/* Rom */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* Headder */
+nav{
+    background: #0a0b27;
+    display: flex;
+    width:100% ;
+    height: 70px;
+    padding: 20px;
+    position: fixed;
+
+}
+
+.navbar_content{
+    padding-left: 400px;
+    padding-top: 5px;
+    
+    
+}
+
+
+.noline{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.navbar_list{
+    list-style: none;
+    display: flex;
+    color: #fff;
+}
+
+.colorchanger:hover{
+    color: #e53f27;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.navbar_list li
+{
+    padding-left: 30px;
+    font-size: 18px;
+    position: relative;
+    
+    
+    
+}
+.dropdown_bar{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    margin-top: 70px;
+}
+.backgroundimg_1st{
+    background-image: url(/Images/Krithifizz.jpg);
+    width: 100% ;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    position:static ;    
+}
+
+.company_dropdown {
+    display: none; 
+    position: absolute; 
+    background: #e53f27; 
+    margin-top: 25px;
+    padding: 10px;
+    z-index: 1000;
+    color: #fff;
+    
+}
+
+.company_button:hover .company_dropdown {
+    display: block;
+    cursor: pointer;
+}
+
+.brand_dropdown{
+    display: flex;
+    flex-direction: column ;
+}
+.brand_dropdown_content{
+    display: none; 
+    position: absolute; 
+    background: #e53f27;
+    color: #fff; 
+    margin-top: 25px;
+    padding: 10px;
+    z-index: 1000
+    
+
+}
+.brand_dropdown_content li
+{
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+.brand_button:hover .brand_dropdown_content
+{
+    cursor: pointer;
+    display: block;
+
+}
+
+.bussiness_dropdown{
+    display: none;
+    
+}
+.bussiness_dropdown_content{
+    display: flex;
+    flex-direction: column ; 
+    position: absolute; 
+    background: #e53f27; 
+    color: #fff;
+    margin-top: 25px;
+    padding: 10px;
+    z-index: 1000
+}
+.bussiness_dropdown_content li
+{
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+
+.bussiness_button:hover .bussiness_dropdown {
+    display: flex;
+}
+
+
+/* Headder - End  */
+/* Main */
+.center_block{
+    display: flex;
+}
+.center_black{
+    width: 1000px;
+    height: 953px;
+    background: black;
+    align-items: center;
+    padding:350px 0 ;
+}
+.centerleft{
+    width: 750px;
+    height: auto;
+    margin: 190px 100px ;
+    
+}
+
+#centerleft_para{
+    font-size: 24px;
+    text-align: left;
+}
+.centerleft_links{
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.centerleft_links li{
+    padding-left: 10px;
+}
+
+#lastappyimg
+{
+    height: 850px;
+}
+
+/* End - Main */
+/* Footer */
+footer{
+    display: flex;
+    margin-left: 100px ;
+    margin-top: 50px ;
+}
+
+#center_foot{
+    padding-right: 150px;
+    padding-left: 250px;
+    
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#footer_foot{
+height: 250px;
+}
+.h_red{
+    color: black;
+    font-weight: 700;
+}
+.h_red:hover{
+    color: red;
+}
+  
+/* Fotter End  */
+/* Css Ends */
