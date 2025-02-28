@@ -96,6 +96,10 @@ nav{
     
 
 }
+#brand_second{
+    margin-left: 120px;
+    padding-bottom: 50px;
+}
 .brand_dropdown_content li
 {
     padding: 10px;
